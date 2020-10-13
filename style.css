@@ -1,0 +1,402 @@
+@font-face {
+    font-family: Designosaur;
+    src: url(Font/Designosaur-Regular.ttf)
+}
+
+body {
+    font-size: 100%;
+    background: #e8e8e8;
+}
+
+#container {
+    background: white;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 3px solid yellow; */
+    align-items: center;
+    padding-right: 1rem;
+    border-bottom: #a5a5a52d solid;
+}
+
+.logo-text {
+    display: flex;
+    /* border: 4px dotted blue; */
+    margin: 10px;
+}
+
+.logo {
+    height: 1.5rem;
+    width: 1.5rem;
+    /* border: 1px dotted blue; */
+}
+
+.text {
+    font-family: Designosaur;
+    font-size: 1.2rem;
+    color: #cd2027;
+    /* border: 1px dotted blue; */
+}
+
+.slogan {
+    /* border: 1px dotted blue; */
+    font-family: Arial;
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 1.5rem;
+    /* float: right; */
+}
+
+.phone {
+    font-family: Designosaur;
+    font-size: 1rem;
+    color: #cd2027;
+    margin-left: auto;
+    /* float: right; */
+    /* border: 4px dotted blue; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider {
+    /* border: 3px solid yellow; */
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: #a5a5a52d solid;
+}
+
+.slider-left {
+    width: 50%;
+    margin: 10px;
+}
+
+.slider-left h1 {
+    font-family: Designosaur;
+    font-weight: 100;
+}
+
+.slider-left p {
+    font-family: Arial;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.buttons {
+    display: flex;
+    font-family: Designosaur;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons p {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.Purchase_Now,
+.Take_A_Tour {
+    border-radius: 50px;
+    height: 3rem;
+    margin: 1rem;
+    font-family: Designosaur;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 5px solid #f0f0f0;
+}
+
+.Purchase_Now {
+    background-image: linear-gradient(#ff9700, #ec5300);
+    color: #ca4500;
+    width: 11rem;
+}
+
+.Take_A_Tour {
+    background-image: linear-gradient(#f4f4f4, #dddddd);
+    color: #838383;
+    width: 9rem;
+}
+
+.slider-right {
+    width: 50%;
+    overflow: auto;
+}
+
+.slider-right .image {
+    scale: 100%;
+}
+
+.image-shadow {
+    height: 0.5em;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, rgb(209, 209, 209), rgba(0, 0, 0, 0.3), rgb(197, 197, 197));
+    border-radius: 50%;
+    filter: blur(5px);
+    z-index: 9999;
+}
+
+.services {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: #a5a5a52d solid;
+}
+
+.services h4 {
+    margin-top: 0;
+    font-family: Designosaur;
+}
+
+.services p {
+    font-family: Arial;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    line-height: 1.2rem;
+    color: #999999;
+}
+
+.quick_and_easy,
+.less_ricky,
+.optimized {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    margin: 1rem;
+}
+
+.services_image {
+    text-align: right;
+    padding-right: 1rem;
+    width: 30%;
+}
+
+.services_text {
+    width: 70%;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border-bottom: #a5a5a52d solid;
+}
+
+.features>h4 {
+    padding: 2.5rem 0 0 2.5rem;
+    font-family: Designosaur;
+}
+
+.featutes-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+.feature-intro {
+    width: 60%;
+}
+
+.feature-intro p {
+    font-family: Arial;
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1.2rem;
+    color: #999999;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+    color: #dd8c5c;
+    font-family: Arial;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.feature-list li {
+    background: url("/Images/bullet.png") no-repeat left center;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-bottom: #a5a5a52d solid;
+}
+
+.last-item {
+    border: none
+}
+
+.screenshots {
+    display: flex;
+    flex-direction: column;
+    border-bottom: #a5a5a52d solid;
+}
+
+.screenshots>h4 {
+    padding: 2.5rem 0 0 2.5rem;
+    font-family: Designosaur;
+}
+
+.screenshots-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #dd8c5c;
+    padding: 0 2rem 0 2rem;
+}
+
+.screenshots-list>li {
+    width: 25%;
+    height: auto;
+    font-size: 0.5rem;
+}
+
+.screenshots-list li img {
+    width: 100%;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    border-bottom: #a5a5a52d solid;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.testimonials>h4 {
+    padding: 0 0 0 2.5rem;
+    font-family: Designosaur;
+}
+
+.quote-contain {
+    position: relative;
+    font-family: Arial;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 2.5rem;
+}
+
+.quote-contain h3 {
+    position: relative;
+    color: #8c8c8c;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 1.5em;
+    border: 1px #afafaf solid;
+    border-radius: 5px;
+}
+
+.quote-contain h3:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #afafaf;
+    border-top: 10px solid #afafaf;
+    border-bottom: 10px solid transparent;
+    left: 24px;
+    bottom: -20px;
+}
+
+.quote-contain h3:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    left: 23px;
+    bottom: -18px;
+}
+
+.quote-contain h4 {
+    position: absolute;
+    left: 52px;
+}
+
+.footer {
+    display: flex;
+    padding: 0 2rem 0.5rem 2rem;
+    overflow: auto;
+    background-color: #303030;
+}
+
+.payment-method {
+    width: 35%;
+    margin-right: 2rem;
+}
+
+.get-in-touch,
+.design-detail {
+    width: 20%;
+    margin-right: 3rem;
+}
+
+.footer-logo-text {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 1.5rem;
+    align-items: flex-end;
+}
+
+.footer h4 {
+    color: #cecece;
+    font-family: Designosaur;
+    font-weight: 100;
+    margin: 1rem 0 1rem 0;
+}
+
+.footer p {
+    color: #7a7a7a;
+    font-family: Arial;
+    font-size: 0.6rem;
+    font-weight: 550;
+    line-height: 0.9rem;
+}
+
+.footer-logo-text img {
+    height: 1.5rem;
+    width: 5rem;
+}
+
+.footer-logo-text .shadow {
+    height: 1rem;
+    width: 5rem;
+}
+
+.copyright {
+    display: flex;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    overflow: auto;
+    background-color: #222222;
+    font-family: Arial;
+    font-size: 0.6rem;
+}
+
+.ref {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    padding-top: 0.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
