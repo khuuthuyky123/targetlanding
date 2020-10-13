@@ -1,6 +1,6 @@
 @font-face {
     font-family: Designosaur;
-    src: url(Font/Designosaur-Regular.ttf)
+    src: url(./Font/Designosaur-Regular.ttf)
 }
 
 body {
@@ -130,6 +130,7 @@ body {
 
 .slider-right {
     width: 50%;
+    text-align: center;
     overflow: auto;
 }
 
@@ -233,7 +234,7 @@ body {
 }
 
 .feature-list li {
-    background: url("/Images/bullet.png") no-repeat left center;
+    background: url("./Images/bullet.png") no-repeat left center;
     padding: 0.5rem 0 0.5rem 1rem;
     border-bottom: #a5a5a52d solid;
 }
